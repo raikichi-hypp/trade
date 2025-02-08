@@ -1,0 +1,91 @@
+ 
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>投資シミュレーションで学ぶAI活用術 | 初心者向けガイド</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>投資が不安な初心者へ<br>AIシミュレーションで見える化しよう</h1>
+    </header>
+
+    <nav class="toc-box">
+        <h2>目次</h2>
+        <ul>
+            <li><a href="#intro">はじめに</a></li>
+            <li><a href="#problem">3つのよくある悩み</a></li>
+            <li><a href="#solution">AIが解決する方法</a></li>
+            <li><a href="#simulate">シミュレーター体験</a></li>
+            <li><a href="#conclusion">まとめ</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <h2>はじめに</h2>
+        <img src="img/investment-chart.png" alt="投資グラフ" class="main-visual">
+        <p>投資を始めたいけど「失敗が怖い」「どれくらい儲かるかわからない」と悩んでいませんか？<br>
+        最新のAI技術を使えば、過去のデータから未来の可能性をシミュレーションできます。<br>
+        この記事では、難しい数式を使わずにAI活用術を解説します。</p>
+    </section>
+
+    <section id="problem">
+        <h2>初心者が直面する3つの壁</h2>
+        <div class="problem-list">
+            <div class="problem-item">
+                <h3>📉 相場変動の予測難しさ</h3>
+                <p>「上がるか下がるか」の判断に迷う</p>
+            </div>
+            <div class="problem-item">
+                <h3>💸 感情的な判断</h3>
+                <p>相場の変動に一喜一憂してしまう</p>
+            </div>
+            <div class="problem-item">
+                <h3>📊 データ分析の難しさ</h3>
+                <p>数字の羅列から意味を見出せない</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution">
+        <h2>AIで解決！モンテカルロシミュレーション</h2>
+        <div class="analogy-box">
+            <p>「天気予報のように<br>投資の未来図を予測する技術」</p>
+        </div>
+        <h3>3ステップの仕組み</h3>
+        <ol class="steps">
+            <li>過去10年のデータを分析</li>
+            <li>1万通りのパターンを自動生成</li>
+            <li>成功率の高い投資戦術を提案</li>
+        </ol>
+    </section>
+
+    <section id="simulate">
+        <h2>シミュレーター体験</h2>
+        <div class="simulator-box">
+            <div class="input-group">
+                <label>初期投資額（万円）:</label>
+                <input type="number" id="investment" value="100">
+            </div>
+            <button onclick="runSimulation()">シミュレーション開始</button>
+            <canvas id="resultChart"></canvas>
+        </div>
+    </section>
+
+    <section id="conclusion">
+        <h2>まとめ</h2>
+        <div class="key-points">
+            <p>✅ AIシミュレーションで投資の見える化</p>
+            <p>✅ 感情に左右されない判断が可能に</p>
+            <p>✅ 初心者でもデータを活用できる</p>
+        </div>
+        <p class="cta">まずはシミュレーターで「未来の可能性」を体感してみましょう！<br>
+        気になる結果が出たらブックマークしておくと便利ですよ。</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

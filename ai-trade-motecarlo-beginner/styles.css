@@ -1,0 +1,59 @@
+ /* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.toc-box {
+    background: #f0f8ff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.main-visual {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.problem-list {
+    display: grid;
+    gap: 15px;
+}
+
+.problem-item {
+    background: #fff5e6;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.simulator-box {
+    background: #e6f3ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.analogy-box {
+    background: #ffe6e6;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
